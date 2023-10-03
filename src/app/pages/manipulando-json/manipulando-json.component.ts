@@ -18,7 +18,7 @@ interface Investors {
 })
 export class ManipulandoJsonComponent {
 
-  investor: Investors[] = investorsData;
+  investors: Investors[] = investorsData;
 
   constructor(private router: Router) { }
 
