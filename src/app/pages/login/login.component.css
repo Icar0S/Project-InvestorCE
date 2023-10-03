@@ -4,33 +4,6 @@
 
 .shipping-card {
   min-width: 120px;
-  margin: 20px auto;
-}
-
-.mat-radio-button {
-  display: block;
-  margin: 5px 0;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.col {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.col:last-child {
-  margin-right: 0;
-}
-.full-width {
-  width: 100%;
-}
-
-.shipping-card {
-  min-width: 120px;
   margin: 70px;
 }
 
@@ -39,6 +12,12 @@
   margin: 5px 0;
 }
 
+
+/* Ou você pode ajustar a largura de campos individuais */
+.mat-form-field.fill {
+  width: 100%; /* Por exemplo, define a largura para 100% */
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -46,6 +25,7 @@
 
 .col {
   flex: 1;
+  width: 100%;
   margin-right: 20px;
 }
 
