@@ -1,1 +1,24 @@
-<p>manipulando-json works!</p>
+<div class="container">
+  <h1> Lista de Investidores Cearenses </h1>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Capital</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let investor of investors">
+        <td>{{ investor.id }}</td>
+        <td>{{ investor.name }}</td>
+        <td>{{ investor.email }}</td>
+        <td>{{ investor.gender }}</td>
+        <td>{{ investor.capital }}</td>
+        <td><button mat-button (click)="goToDetail(investor)">Ir para detalhe</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

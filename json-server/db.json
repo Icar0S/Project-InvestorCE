@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "1234567890",
+      "cpf": "12345678900",
+      "password": "securepassword1"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "9876543210",
+      "cpf": "98765432101",
+      "password": "mypassword123"
+    },
+    {
+      "id": 3,
+      "firstName": "Carol Davis",
+      "email": "carol.davis@example.com",
+      "phone": "5551234567",
+      "cpf": "55512345678",
+      "password": "strongpassword"
+    },
+    {
+      "id": 4,
+      "firstName": "David Wilson",
+      "email": "david.wilson@example.com",
+      "phone": "9998887777",
+      "cpf": "99988877786",
+      "password": "topsecret123"
+    },
+    {
+      "id": 5,
+      "firstName": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "phone": "1112223333",
+      "cpf": "11122233345",
+      "password": "mypassword"
+    },
+    {
+      "id": 6,
+      "firstName": "Frank Taylor",
+      "email": "frank.taylor@example.com",
+      "phone": "3334445555",
+      "cpf": "33344455567",
+      "password": "password123"
+    },
+    {
+      "id": 7,
+      "firstName": "Grace Anderson",
+      "email": "grace.anderson@example.com",
+      "phone": "7776665555",
+      "cpf": "77766655584",
+      "password": "secure1234"
+    },
+    {
+      "id": 8,
+      "firstName": "Henry White",
+      "email": "henry.white@example.com",
+      "phone": "4445556666",
+      "cpf": "44455566693",
+      "password": "mypassword456"
+    },
+    {
+      "id": 9,
+      "firstName": "Isabella Lee",
+      "email": "isabella.lee@example.com",
+      "phone": "2223334444",
+      "cpf": "22233344412",
+      "password": "strongpassword789"
+    },
+    {
+      "id": 10,
+      "firstName": "James Harris",
+      "email": "james.harris@example.com",
+      "phone": "8889990000",
+      "cpf": "88899900001",
+      "password": "mypassword7890"
+    }
+  ]
+}

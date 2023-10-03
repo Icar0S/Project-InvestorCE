@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Jack",
+    "email": "jack@gmail.com",
+    "gender": "male",
+    "capital": 750000
+  },
+  {
+    "id": 2,
+    "name": "Peter",
+    "email": "peter@gmail.com",
+    "gender": "male",
+    "capital": 125000
+  },
+  {
+    "id": 3,
+    "name": "Mary",
+    "email": "mary@gmail.com",
+    "gender": "female",
+    "capital": 320000
+  },
+  {
+    "id": 4,
+    "name": "Smith",
+    "email": "smith@gmail.com",
+    "gender": "male",
+    "capital": 980000
+  },
+  {
+    "id": 5,
+    "name": "John",
+    "email": "john@gmail.com",
+    "gender": "male",
+    "capital": 560000
+  },
+  {
+    "id": 6,
+    "name": "Alice",
+    "email": "alice@gmail.com",
+    "gender": "female",
+    "capital": 210000
+  },
+  {
+    "id": 7,
+    "name": "Eve",
+    "email": "eve@gmail.com",
+    "gender": "female",
+    "capital": 875000
+  },
+  {
+    "id": 8,
+    "name": "Robert",
+    "email": "robert@gmail.com",
+    "gender": "male",
+    "capital": 430000
+  },
+  {
+    "id": 9,
+    "name": "David",
+    "email": "david@gmail.com",
+    "gender": "male",
+    "capital": 690000
+  },
+  {
+    "id": 10,
+    "name": "Sara",
+    "email": "sara@gmail.com",
+    "gender": "female",
+    "capital": 180000
+  }
+]
