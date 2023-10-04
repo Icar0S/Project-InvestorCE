@@ -22,6 +22,12 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-json.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LayoutModule } from '@angular/cdk/layout';
+import { SubRouteComponent } from './pages/sub-route/sub-route.component';
+import { DetalheComponent } from './pages/detalhe/detalhe.component';
+import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
+import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +39,11 @@ import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-j
     CadastroComponent,
     LoginComponent,
     MainComponent,
-    ManipulandoJsonComponent
+    ManipulandoJsonComponent,
+    SubRouteComponent,
+    DetalheComponent,
+    EmpresasComponent,
+    FundosComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +54,8 @@ import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-j
     MatSelectModule,
     MatRadioModule,
     MatCardModule,
+    HttpClientModule,
+    LayoutModule,
     ReactiveFormsModule,
     MatToolbarModule,
     MatSidenavModule,
