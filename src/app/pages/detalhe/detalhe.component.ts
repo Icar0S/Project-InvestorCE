@@ -6,20 +6,32 @@ import { ActivatedRoute, Params } from '@angular/router';
   templateUrl: './detalhe.component.html',
   styleUrls: ['./detalhe.component.css']
 })
+
 export class DetalheComponent implements OnInit {
 
-  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
+  longText = `A média salarial anual da empresa XP Investimentos
+  varia de aproximadamente R$ 98.800 para
+  o cargo de Assessor De Investimentos a
+  R$ 180.000 para o cargo de Analista Pleno.`;
+
   constructor(private route: ActivatedRoute) { }
-  nome: string = "Investidor Bruno Hauck";
+
+  nome: string = "Investidor ";
   identificador: number = 0;
+  phone: string = '';
+
   ngOnInit(): void {
     this.route.params.forEach((params: Params) => {
       if (params['id'] !== undefined) {
         this.identificador = +params['id'];
         console.log(this.identificador);
       }
+
+      if (params['phone'] !== undefined) {
+        this.phone = params['phone'];
+        console.log(this.phone);
+      }
+
     });
   }
 

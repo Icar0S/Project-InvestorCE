@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col">
           <mat-form-field class="fill">
-            <input matInput placeholder="Senha" formControlName="password">
+            <input matInput placeholder="Senha" type="password" formControlName="password">
             <mat-error *ngIf="addressForm.controls['password'].hasError('required')">
               Senha é <strong>obrigatório</strong>!
             </mat-error>

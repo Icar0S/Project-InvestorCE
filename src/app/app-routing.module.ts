@@ -9,7 +9,9 @@ import { SubRouteComponent } from './pages/sub-route/sub-route.component';
 import { DetalheComponent } from './pages/detalhe/detalhe.component';
 import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
 import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
-
+import { PrivadoComponent } from './pages/privado/privado.component';
+import { AutorizadoGuard } from './guards/autorizado.guard';
+import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -17,6 +19,8 @@ const routes: Routes = [
   { path: 'cadastro', component: CadastroComponent },
   { path: 'login', component: LoginComponent },
   { path: 'listar', component: ListarComponent },
+  { path: 'detalhe/:id/:phone', component: DetalheComponent },
+  { path: 'list-simples', component: ListSimplesComponent },
   { path: 'detalhe/:id', component: DetalheComponent },
   { path: 'json', component: ManipulandoJsonComponent },
   {
@@ -26,6 +30,7 @@ const routes: Routes = [
       { path: 'fundos', component: FundosComponent },
     ]
   },
+  { path: 'privado', component: PrivadoComponent, canActivate: [AutorizadoGuard] },
 ];
 
 

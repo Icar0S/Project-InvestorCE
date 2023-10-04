@@ -28,6 +28,8 @@ import { SubRouteComponent } from './pages/sub-route/sub-route.component';
 import { DetalheComponent } from './pages/detalhe/detalhe.component';
 import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
 import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
+import { PrivadoComponent } from './pages/privado/privado.component';
+import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
     SubRouteComponent,
     DetalheComponent,
     EmpresasComponent,
-    FundosComponent
+    FundosComponent,
+    PrivadoComponent,
+    ListSimplesComponent
   ],
   imports: [
     BrowserModule,
