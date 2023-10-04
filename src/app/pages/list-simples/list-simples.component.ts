@@ -11,7 +11,7 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class ListSimplesComponent implements OnInit {
 
-  users: User[] = usersdata;
+  users: User[] = [];//usersdata;
 
   constructor(private router: Router, public service: UserService) { }
 
