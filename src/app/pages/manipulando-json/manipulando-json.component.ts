@@ -1,15 +1,7 @@
 import { Component } from '@angular/core';
 import investorsData from '../../investors.json';
 import { Router } from '@angular/router';
-
-interface Investors {
-  id: Number;
-  name: String;
-  email: String;
-  gender: String;
-  capital: Number;
-}
-
+import { Investor } from 'src/app/models/investor';
 
 @Component({
   selector: 'app-manipulando-json',
@@ -18,11 +10,11 @@ interface Investors {
 })
 export class ManipulandoJsonComponent {
 
-  investors: Investors[] = investorsData;
+  investors: Investor[] = investorsData;
 
   constructor(private router: Router) { }
 
-  goToDetail(investor: Investors) {
+  goToDetail(investor: Investor) {
     this.router.navigate(['/detalhe', investor.id]);
   }
 }
