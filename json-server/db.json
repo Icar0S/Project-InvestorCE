@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "firstName": "Alice Johnson",
+      "name": "Alice Johnson",
       "email": "alice.johnson@gmail.com",
       "phone": "1234567890",
       "cpf": "12345678900",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "firstName": "Bob Smith",
+      "name": "Bob Smith",
       "email": "bob.smith@gmail.com",
       "phone": "9876543210",
       "cpf": "98765432101",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "firstName": "Carol Davis",
+      "name": "Carol Davis",
       "email": "carol.davis@gmail.com",
       "phone": "5551234567",
       "cpf": "55512345678",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "firstName": "Duda Santos",
+      "name": "Duda Santos",
       "email": "duda.santos@gmail.com",
       "phone": "9998887777",
       "cpf": "99988877786",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "firstName": "Emily Brown",
+      "name": "Emily Brown",
       "email": "emily.brown@gmail.com",
       "phone": "1112223333",
       "cpf": "11122233345",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "firstName": "Frank Taylor",
+      "name": "Frank Taylor",
       "email": "frank.taylor@gmail.com",
       "phone": "3334445555",
       "cpf": "33344455567",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "firstName": "Grace Anderson",
+      "name": "Grace Anderson",
       "email": "grace.anderson@gmail.com",
       "phone": "7776665555",
       "cpf": "77766655584",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "firstName": "Henry White",
+      "name": "Henry White",
       "email": "henry.white@gmail.com",
       "phone": "4445556666",
       "cpf": "44455566693",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "firstName": "Isabella Lee",
+      "name": "Isabella Lee",
       "email": "isabella.lee@gmail.com",
       "phone": "2223334444",
       "cpf": "22233344412",
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "firstName": "Icaro Santos",
+      "name": "Icaro Santos",
       "email": "icaro.santos@gmail.com",
       "phone": "85983720038",
       "cpf": "728993382033",
