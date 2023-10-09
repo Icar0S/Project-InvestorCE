@@ -9,33 +9,37 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-json.component';
+import { LoginComponent } from './pages/login/login.component';
+import { MainComponent } from './pages/main/main.component';
+
+import { SubRouteComponent } from './pages/sub-route/sub-route.component';
+import { DetalheComponent } from './pages/detalhe/detalhe.component';
+import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
+import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
+import { PrivadoComponent } from './pages/privado/privado.component';
+import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
+import { EditarComponent } from './pages/editar/editar.component';
+
+
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { ReactiveFormsModule } from '@angular/forms';
-import { LoginComponent } from './pages/login/login.component';
-import { MainComponent } from './pages/main/main.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-json.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 
-import { SubRouteComponent } from './pages/sub-route/sub-route.component';
-import { DetalheComponent } from './pages/detalhe/detalhe.component';
-import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
-import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
 
-import { PrivadoComponent } from './pages/privado/privado.component';
-import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
-import { EditarComponent } from './pages/editar/editar.component';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
 import { UserService } from './services/user.service';
-
 
 @NgModule({
   declarations: [
@@ -65,6 +69,8 @@ import { UserService } from './services/user.service';
     MatSelectModule,
     MatRadioModule,
     MatCardModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     HttpClientModule,
     LayoutModule,
     ReactiveFormsModule,

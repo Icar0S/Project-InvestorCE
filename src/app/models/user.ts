@@ -5,13 +5,6 @@ export class User {
   public phone: string = '';
   public cpf: string = '';
   public password: string = '';
-  //public dataNascimento: string = '';
+  public dataNascimento: string = '';
 }
 
-// id: string;
-// firstName: string;
-// email: string;
-// phone: string;
-// cpf: string;
-// password: string;
-// dataNascimento: string;

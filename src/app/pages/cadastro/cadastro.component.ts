@@ -22,7 +22,7 @@ export class CadastroComponent {
     phone: [this.user.phone, Validators.required],
     cpf: [this.user.cpf, [Validators.required, GenericValidator.isValidCpf()]],
     password: [this.user.password, Validators.required],
-    //dataNascimento: [this.user.dataNascimento, Validators.required],
+    dataNascimento: [this.user.dataNascimento, Validators.required],
   });
 
   hasUnitNumber = false;
