@@ -50,6 +50,8 @@ export class CadastroComponent {
       this.user.password = this.addressForm.controls['password'].value;
     if (this.addressForm.controls['cpf'].value)
       this.user.cpf = this.addressForm.controls['cpf'].value;
+    if (this.addressForm.controls['dataNascimento'].value)
+      this.user.dataNascimento = this.addressForm.controls['dataNascimento'].value;
 
     console.log(this.user);
     localStorage.setItem('user', JSON.stringify(this.user));
