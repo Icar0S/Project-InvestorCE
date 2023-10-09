@@ -1,7 +1,7 @@
 <form [formGroup]="addressForm" novalidate (ngSubmit)="onSubmit()">
-  <mat-card class="shipping-card formCadastro">
+  <mat-card class="shipping-card formCadastroEdit">
     <mat-card-header>
-      <mat-card-title>Cadastro do Investidor</mat-card-title>
+      <mat-card-title>Editar Cadastro do Investidor</mat-card-title>
     </mat-card-header>
     <mat-card-content>
       <div class="row">
@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col">
           <mat-form-field class="full-width">
-            <input matInput placeholder="Phone" mask="(00) 90000-0000" formControlName="phone">
+            <input matInput placeholder="Phone" formControlName="phone">
             <mat-error *ngIf="addressForm.controls['phone'].hasError('required')">
               Telefone é <strong>obrigatório</strong>
             </mat-error>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <!-- <div class="col">
           <mat-form-field class="full-width">
             <input matInput placeholder="CPF" mask="000.000.000-00" formControlName="cpf">
             <mat-error *ngIf="addressForm.controls['cpf'].hasError('required')">
@@ -56,7 +56,7 @@
               CPF não é <strong>Valido</strong>
             </mat-error>
           </mat-form-field>
-        </div>
+        </div> -->
       </div>
       <div class="row">
         <!-- <div class="col">
@@ -71,7 +71,7 @@
       </div>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" [disabled]="!addressForm.valid" type="submit">Cadastrar</button>
+      <button mat-raised-button color="primary" [disabled]="!addressForm.valid" type="submit">Salvar</button>
     </mat-card-actions>
   </mat-card>
 </form>

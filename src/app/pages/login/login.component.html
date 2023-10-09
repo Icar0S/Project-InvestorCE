@@ -1,24 +1,25 @@
 <form [formGroup]="addressForm" (ngSubmit)="onSubmit()" novalidate>
-  <mat-card class="shipping-card">
+  <mat-card class="shipping-card formLogin">
     <mat-card-header>
       <mat-card-title>Login do Investidor</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-
       <div class="row">
         <div class="col">
-          <mat-form-field appearance="fill">
+          <mat-form-field class="full-width">
             <mat-label>Enter your email</mat-label>
             <input matInput placeholder="pat@example.com" name="email" formControlName="email">
-            <mat-error *ngIf="addressForm.controls['email'].hasError('required')" required>
-              Email é <strong>obrigatório</strong>!
+            <mat-error *ngIf="email.invalid">
+              <!-- <mat-error *ngIf="addressForm.controls['email'].hasError('required')" required> -->
+              <!-- Email é <strong>obrigatório</strong>! -->
+              {{ getErrorMessage() }}
             </mat-error>
           </mat-form-field>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <mat-form-field class="fill">
+          <mat-form-field class="full-width">
             <input matInput placeholder="Senha" type="password" formControlName="password">
             <mat-error *ngIf="addressForm.controls['password'].hasError('required')">
               Senha é <strong>obrigatório</strong>!

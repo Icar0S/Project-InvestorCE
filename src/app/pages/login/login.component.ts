@@ -14,14 +14,15 @@ export class LoginComponent {
     email: ['', Validators.required],
     password: ['', Validators.required],
   });
-  /*email = this.addressForm.controls['email'];
+
+  email = this.addressForm.controls['email'];
 
   getErrorMessage() {
     if (this.email.hasError('required')) {
-      return 'You must enter a value';
+      return 'Email é Obrigatório';
     }
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }*/
+    return this.email.hasError('email') ? 'Email invalido' : '';
+  }
 
   constructor(
     private fb: FormBuilder,

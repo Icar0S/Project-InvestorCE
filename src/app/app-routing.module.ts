@@ -12,12 +12,14 @@ import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
 import { PrivadoComponent } from './pages/privado/privado.component';
 import { AutorizadoGuard } from './guards/autorizado.guard';
 import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
+import { EditarComponent } from './pages/editar/editar.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'cadastro', component: CadastroComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'editar', component: EditarComponent },
   { path: 'listar', component: ListarComponent },
   { path: 'detalhe/:id/:phone', component: DetalheComponent },
   { path: 'list-simples', component: ListSimplesComponent },

@@ -24,12 +24,17 @@ import { MatListModule } from '@angular/material/list';
 import { ManipulandoJsonComponent } from './pages/manipulando-json/manipulando-json.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
+
 import { SubRouteComponent } from './pages/sub-route/sub-route.component';
 import { DetalheComponent } from './pages/detalhe/detalhe.component';
 import { EmpresasComponent } from './pages/sub-route/empresas/empresas.component';
 import { FundosComponent } from './pages/sub-route/fundos/fundos.component';
+
 import { PrivadoComponent } from './pages/privado/privado.component';
 import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
+import { EditarComponent } from './pages/editar/editar.component';
+import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
+
 
 @NgModule({
   declarations: [
@@ -47,7 +52,8 @@ import { ListSimplesComponent } from './pages/list-simples/list-simples.componen
     EmpresasComponent,
     FundosComponent,
     PrivadoComponent,
-    ListSimplesComponent
+    ListSimplesComponent,
+    EditarComponent
   ],
   imports: [
     BrowserModule,
@@ -64,9 +70,11 @@ import { ListSimplesComponent } from './pages/list-simples/list-simples.componen
     MatToolbarModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    NgxMaskDirective,
+    NgxMaskPipe
   ],
-  providers: [],
+  providers: [provideNgxMask()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,10 +1,15 @@
 .full-width {
-  width: 100%;
+  width: 90%;
 }
 
 .shipping-card {
   min-width: 120px;
-  margin: 70px;
+  margin: 20px auto;
+}
+
+.formLogin {
+  max-width: 700px;
+  margin: 30px;
 }
 
 .mat-radio-button {
@@ -13,14 +18,11 @@
 }
 
 
-/* Ou você pode ajustar a largura de campos individuais */
-.mat-form-field.fill {
-  width: 100%; /* Por exemplo, define a largura para 100% */
-}
 
 .row {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .col {
