@@ -1,6 +1,13 @@
 .container{
-    margin: 70px;
+  margin: 70px;
+  width:80vw;
+
 }
+
+.table {
+max-width: 1200px;
+}
+
 .tdMargin{
     width: 150px;
 }
