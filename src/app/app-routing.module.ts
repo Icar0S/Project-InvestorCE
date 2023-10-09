@@ -14,6 +14,7 @@ import { AutorizadoGuard } from './guards/autorizado.guard';
 import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
 import { EditarComponent } from './pages/editar/editar.component';
 import { ModalComponent } from './pages/modal/modal.component';
+import { UserInfoComponent } from './pages/user-info/user-info.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'editar', component: EditarComponent },
   { path: 'listar', component: ListarComponent },
   { path: 'modal', component: ModalComponent },
+  { path: 'usuario', component: UserInfoComponent },
   { path: 'detalhe/:id/:phone', component: DetalheComponent },
   { path: 'list-simples', component: ListSimplesComponent },
   { path: 'detalhe/:id', component: DetalheComponent },

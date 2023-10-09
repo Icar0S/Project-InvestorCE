@@ -48,6 +48,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { UserInfoComponent } from './pages/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { MatSortModule } from '@angular/material/sort';
     ListSimplesComponent,
     EditarComponent,
     ModalComponent,
-    DialogContentExampleDialog
+    DialogContentExampleDialog,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
