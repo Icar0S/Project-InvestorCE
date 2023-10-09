@@ -83,6 +83,7 @@ export class ListarDataSource extends DataSource<User> {
         case 'id': return compare(+a.id, +b.id, isAsc);
         case 'cpf': return compare(+a.cpf, +b.cpf, isAsc);
         case 'phone': return compare(+a.phone, +b.phone, isAsc);
+        case 'dataNascimento': return compare(+a.dataNascimento, +b.dataNascimento, isAsc);
         default: return 0;
       }
     });
