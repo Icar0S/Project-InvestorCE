@@ -19,6 +19,7 @@ export class UserService {
 
   BASE_URL: string = 'http://localhost:3000/';
   constructor(private http: HttpClient) { }
+
   /**  POST  user api  ADD User Function  */
   addUser(user: User): Observable<User> {
     console.log(user);

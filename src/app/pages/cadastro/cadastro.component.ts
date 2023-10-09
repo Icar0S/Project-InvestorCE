@@ -39,7 +39,7 @@ export class CadastroComponent {
 
 
   onSubmit(): void {
-    this.user.id = '1';
+
     if (this.addressForm.controls['name'].value)
       this.user.name = this.addressForm.controls['name'].value;
     if (this.addressForm.controls['email'].value)

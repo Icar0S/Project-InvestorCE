@@ -34,6 +34,7 @@ import { PrivadoComponent } from './pages/privado/privado.component';
 import { ListSimplesComponent } from './pages/list-simples/list-simples.component';
 import { EditarComponent } from './pages/editar/editar.component';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
+import { UserService } from './services/user.service';
 
 
 @NgModule({
@@ -74,7 +75,7 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
     NgxMaskDirective,
     NgxMaskPipe
   ],
-  providers: [provideNgxMask()],
+  providers: [UserService, provideNgxMask()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
